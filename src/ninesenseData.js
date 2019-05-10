@@ -23,7 +23,7 @@ const ninesenseData = {
     "carouselItems": [
         {
             "itemName": "NINE SENSE",
-            "descryption": "Nine Sense is Everything. Scraping, AI, Machine Leaning, ChatBot, Full Stack...",
+            "descryption": "Scraping, AI, Machine Learning, ChatBot, Full Stack...",
             "ImgUrl": "assets/images/mbr-6-1920x1275.jpg",
             "isActive": " active"
         },
@@ -41,7 +41,7 @@ const ninesenseData = {
         }
     ],
     "ourServicesTitle": "Our Services",
-    "ourServicesDescription": "Nine Sense is Everything. Scraping, AI, Machine Leaning, ChatBot, Full Stack...",
+    "ourServicesDescription": "Nine Sense is Everything.",
     "ourServicesItems" : [
         {
             "itemName": "Scraping & Data Science",

@@ -29,6 +29,7 @@ export default class Header extends Component {
                                 <div className="carousel-caption justify-content-center">
                                     <div className="col-10 align-center">
                                         <h2 className="mbr-fonts-style display-1"><strong>{data.itemName}</strong></h2>
+                                        { i === 0 ? <h2 className="mbr-fonts-style display-5"><strong>{this.props.ourservicesDescrption}</strong></h2> : null}
                                         <p className="lead mbr-text mbr-fonts-style display-5">{data.descryption}</p>
                                     </div>
                                 </div>

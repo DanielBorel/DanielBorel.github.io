@@ -103,7 +103,10 @@ class App extends Component {
     return (
       <div className="App">
         <Nav navData={ninesenseData.navData}/>
-        <Header carouselItems={ninesenseData.carouselItems}/>
+        <Header 
+          carouselItems={ninesenseData.carouselItems}
+          ourservicesDescrption={ninesenseData.ourServicesDescription}
+        />
         <OurServices 
           ourServicesItems={ninesenseData.ourServicesItems}
           ourservice={ninesenseData.ourServicesTitle}
