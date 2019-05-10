@@ -26,7 +26,7 @@ class Nav extends Component {
             <div className="menu-logo">
                 <div className="navbar-brand">
                     <span className="navbar-logo">
-                        <a href="#">
+                        <a href="https://danielborel.github.io/">
                             <img src={navData.brandIco} alt={navData.navbarCaption} title=""/>
                         </a>
                     </span>

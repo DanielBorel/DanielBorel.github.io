@@ -23,7 +23,7 @@ const ninesenseData = {
     "carouselItems": [
         {
             "itemName": "NINE SENSE",
-            "descryption": "Scraping, AI, Machine Learning, ChatBot, Full Stack...",
+            "descryption": "Scraping, AI, Machine Learning, Rasa ChatBot, Full Stack...",
             "ImgUrl": "assets/images/mbr-6-1920x1275.jpg",
             "isActive": " active"
         },
