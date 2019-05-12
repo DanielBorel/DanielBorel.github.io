@@ -9,9 +9,9 @@ export default class Header extends Component {
   render() {
     let carouselItems = this.props.carouselItems;
     return (
-       <div className="carousel slide cid-rnToATNuq5"  id="slider1-x">
+       <div className="carousel slide cid-rnToATNuq5" data-interval="false"  id="slider1-x">
           <div className="full-screen">
-            <div className="mbr-slider">
+            <div class="mbr-slider slide carousel"  data-ride="carousel" data-interval="4000" data-pause="false" data-keyboard="true">
               <ol className="carousel-indicators">
                   { carouselItems.map((data,i) => {
                     return (
@@ -19,13 +19,13 @@ export default class Header extends Component {
                     )
                   })}
               </ol>
-              <div className="carousel-inner">
+              <div className="carousel-inner" role="listbox">
                   { carouselItems.map((data,i) => {
                     return (
                       <div className={"carousel-item slider-fullscreen-image" + data.isActive} style={{backgroundImage: `url(${data.ImgUrl})`}} key={data.itemName}>
                         <div className="container container-slide">
                             <div className="image_wrapper">
-                                <div className="mbr-overlay"></div>
+                                <div className="mbr-overlay"></div><img src={data.ImgUrl} alt=""/>
                                 <div className="carousel-caption justify-content-center">
                                     <div className="col-10 align-center">
                                         <h2 className="mbr-fonts-style display-1"><strong>{data.itemName}</strong></h2>
