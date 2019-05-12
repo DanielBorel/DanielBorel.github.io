@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/static/media/notification.0d062b33.mp3"
   },
   {
-    "revision": "ee1ccb57162490c9f01abeb98b74961b",
+    "revision": "51ee501f379dd940c3f6d3e1f5911aa6",
     "url": "/index.html"
   }
 ];
